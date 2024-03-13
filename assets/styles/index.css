@@ -1,0 +1,36 @@
+@import "./bootstrap.min.css";
+
+body{
+    background: #FFFAF5;
+}
+
+header{
+    background: #FFFAF5;
+}
+
+.bg-orange{
+    background-color: #E16A00;
+}
+
+.bg-orange:hover{
+    background-color: #fd7905;
+}
+
+.to-right{
+    transform: translateX(12%);
+}
+
+.to-top{
+    transform:translateY(100px)
+}
+
+@media only screen and (max-width:768px) {
+    .to-right{
+        transform: translateX(0%);
+        width: 100%;
+    }
+
+    .to-top{
+        transform:translateY(0px)
+    }
+}
